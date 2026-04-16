@@ -6,7 +6,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
-              <img src="/images/hously-logo.svg" alt="Пространство" width={120} height={32} className="w-auto h-6" />
+              <span className="font-semibold tracking-widest uppercase text-sm">Столярка</span>
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Изготавливаем деревянные лестницы и столярные изделия на заказ. Работаем под ключ: замер, проектирование, монтаж.
