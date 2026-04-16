@@ -4,35 +4,35 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Резиденция Светлая",
-    category: "Жилой дом",
-    location: "Москва, Россия",
+    title: "Лестница в частном доме",
+    category: "Массив дуба",
+    location: "Подмосковье",
     year: "2024",
-    image: "/images/hously-1.png",
+    image: "https://cdn.poehali.dev/projects/364bb2ae-44ae-4a1d-8d11-c66b5b54739a/files/26dcf371-e980-4ebb-9274-6b0c1d639985.jpg",
   },
   {
     id: 2,
-    title: "Павильон Стекло",
-    category: "Коммерческий объект",
-    location: "Санкт-Петербург, Россия",
-    year: "2023",
-    image: "/images/hously-2.png",
+    title: "Парадная лестница",
+    category: "Ясень + металл",
+    location: "Москва",
+    year: "2024",
+    image: "https://cdn.poehali.dev/projects/364bb2ae-44ae-4a1d-8d11-c66b5b54739a/files/1ab335e5-dbcb-425a-ac8d-75e1be63894d.jpg",
   },
   {
     id: 3,
-    title: "Дом у моря",
-    category: "Жилой дом",
-    location: "Сочи, Россия",
+    title: "Лестница на больцах",
+    category: "Массив бука",
+    location: "Санкт-Петербург",
     year: "2023",
-    image: "/images/hously-3.png",
+    image: "https://cdn.poehali.dev/projects/364bb2ae-44ae-4a1d-8d11-c66b5b54739a/files/828a3d59-90cd-4280-aced-db56bca4288b.jpg",
   },
   {
     id: 4,
-    title: "Северный приют",
-    category: "Гостиничный комплекс",
-    location: "Казань, Россия",
-    year: "2024",
-    image: "/images/hously-4.png",
+    title: "Консольная лестница",
+    category: "Дуб + стекло",
+    location: "Сочи",
+    year: "2023",
+    image: "https://cdn.poehali.dev/projects/364bb2ae-44ae-4a1d-8d11-c66b5b54739a/files/1c7f383b-aa71-49f8-abd2-392b9c915459.jpg",
   },
 ]
 
@@ -69,7 +69,7 @@ export function Projects() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <div>
             <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Избранные работы</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши проекты</h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши лестницы</h2>
           </div>
           <a
             href="#"
