@@ -5,7 +5,8 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="md:col-span-2">
-            <a href="/" className="inline-block mb-6">
+            <a href="/" className="inline-flex items-center gap-2 mb-6">
+              <img src="https://cdn.poehali.dev/projects/364bb2ae-44ae-4a1d-8d11-c66b5b54739a/bucket/f6b8506c-e4db-4dbc-94c4-b1774095873d.jpg" alt="Столярка" className="h-8 w-8 rounded-lg object-cover" />
               <span className="font-semibold tracking-widest uppercase text-sm">Столярка</span>
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
