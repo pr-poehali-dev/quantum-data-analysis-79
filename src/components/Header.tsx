@@ -33,7 +33,6 @@ export function Header() {
     >
       <nav className="container mx-auto px-6 flex items-center justify-between md:px-[24]">
         <a href="/" className="flex items-center gap-2 group" onClick={scrollToTop}>
-          <img src="https://cdn.poehali.dev/projects/364bb2ae-44ae-4a1d-8d11-c66b5b54739a/bucket/f6b8506c-e4db-4dbc-94c4-b1774095873d.jpg" alt="Столярка" className="h-8 w-8 rounded-lg object-cover" />
           <span className="text-white font-semibold tracking-widest uppercase text-sm">Столярка</span>
         </a>
 
